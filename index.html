@@ -4,30 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/flowers.png" type="image/x-icon">
-    <title>Flowers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Form Login</title>
 </head>
 <body>
-    <div class="greetings">
-    <!-- silahkan menambah kata sesuai keinginan dengan <span>text...</span -->
-        <span>H</span>
-        <span>A</span>
-        <span>L</span>
-        <span>L</span>
-        <span>O</span>
-        <br>
-        <span>N</span>
-        <span>U</span>
-        <span>R</span>
-        <span>A</span>
-        <span>I</span>
-        <span>N</span>
-        <span>I</span>
+    <div class="page__login">
+        <div class="page__left">
+            <div class="content__left">
+                <img src="images/hero-img.png" width="400" alt="hero-img">
+                <img src="images/rectangle-1.png" alt="">
+                <img src="images/rectangle-2.png" alt="">
+                <img src="images/rectangle-3.png" alt="">
+                <img src="images/trophy.png" alt="">
+                <img src="images/music.png" alt="">
+                <img src="images/headphone.png" alt="">
+                <img src="images/rocket.png" alt="">
+                <div class="title__hero">
+                   <h1>Explore 3D illustrations in the space.</h1> 
+                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur iure unde blanditiis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page__right">
+            <div class="logo__brand">
+                <img src="images/logo-brand.svg" alt="">
+                <div class="text__brand">3D<span>ICONS</span></div>
+            </div>
+            <div class="content__login">
+                <div class="title__login">
+                    <h1>Login.</h1>
+                </div>
+                <div class="form__login">
+                    <button class="btn_input_google">
+                        <img src="images/google-logo.svg" alt="">
+                        Login using Google
+                    </button>
+                    <div class="or">or</div>
+                    <div class="form__group">
+                        <label for="">Your e-mail</label>
+                        <input id="input-email" type="email" class="form__control" placeholder="Enter your email">
+                        <div id="message-error" class="message__error"></div>
+                    </div>
+                    <div class="form__group">
+                        <label for="">Password</label>
+                        <input id="input-password" type="password" class="form__control" placeholder="Enter your password">
+                        <div id="message-error" class="message__error"></div>
+                    </div>
+                    <div class="forgot__password">
+                        <a href="#">Forgot password ?</a>
+                    </div>
+                    <button class="btn__primary"
+                    >
+                        <i id="my-icon" class="fa-solid fa-circle-notch"></i>
+                        <div id="content-button"></div>
+                    </button>
+                    <div class="navigation__register">
+                        <div class="register__button">Don't have an account ? <a href="#">Register</a></div>
+                    </div>
+                    <!-- <div class="copyright__design">
+                        <div>@2023 Ahmad Zaki</div>
+                        <div>Privacy policy</div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="description">
-        <span>Aku ada hadiah spesial buat kamu!!</span>
-    </div>
-    <a href="flower.html" class="btn-klik">Klik disini</a> 
+    <script src="script.js"></script>
 </body>
 </html>
